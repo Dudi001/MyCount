@@ -14,14 +14,10 @@ class ViewController: UIViewController {
     
     private var count: Int = 0
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
     
     @IBAction func actionCount(_ sender: Any) {
-            count += 1
-            countLabel.text = "Значение счетчика: \(count)"
-            
+        count += 1
+        countLabel.text = "Значение счетчика: \(count)"
+        
     }
 }
